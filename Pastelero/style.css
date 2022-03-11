@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: black;
+  }
+  
+  header{
+    display: flex;
+    min-height: 70px;
+    align-items: center;
+    background-color:white;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo{
+    display:flex;
+    align-items: center;
+  }
+  
+  .logo img{
+    height: 80px;
+  }
+  
+  h2{
+    color: palevioletred;
+  }
+  
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  li{
+    display: inline;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  
+  nav a{
+    font-weight: 600;
+    padding-right: 10px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  nav :hover{
+    color:palevioletred;
+  }
+  
+  @media (max-width:700px){
+    header{
+      flex-direction: column;
+    }
+  }
+
+  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #FFEBEE;
+  }
+  
+table{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Pedidos{
+  width: 1100px;
+  margin: 50px auto;
+}
+
+table{
+  background: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+  padding: 20px;
+}
+
+th{
+  background: #757575;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #FFEBEE;
+}
+
+tr:hover{
+  background: #C2185B;
+  color: white;
+}
+
+.Sabores table{
+  width: 800px;
+  margin: 50px auto;
+
+}
+
+.Adornos table{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.contentbtn{
+  text-align: center;
+}
+
+.btn{
+  color: palevioletred; /*Color texto */
+  background: transparent; /* Eliminar color de fondo */
+  border: 2px solid #D81B60; /* Ancho de borde, estilo de línea y color */
+  border-radius: 10px; /* Esquinas redondeadas */
+  text-decoration: none;
+  text-transform: uppercase; /* Mayúsculas */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #C2185B;
+}
+
+.btn:hover{
+  background-color: #C2185B;
+      color: white;
+}
+
+
